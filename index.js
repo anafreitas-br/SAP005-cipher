@@ -1,3 +1,12 @@
-import cipher from './cipher.js';
+import cipher from "./cipher.js";
 
-console.log(cipher);
+const buttonC = document.getElementById("btnC");
+buttonC.addEventListener("click", cipher.encode);
+
+
+const buttonD = document.getElementById("btnD");
+buttonD.addEventListener("click", cipher.decode);
+
+
+  
+

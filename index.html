@@ -1,13 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta charset="utf-8" />
+    <title>Rede Mulheres Livres</title>
+    <link rel="icon" href="./Imagens/72-512.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <img src="./Imagens/grupo-de-mulheres-fortes-vector.jpg" alt="mulheres" />
+
+      <h1 id="titulo">Rede Mulheres Livres</h1>
+      <h3 class="subtitulo">se joga que aqui tem rede :)</h3>
+
+      <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap"
+        rel="stylesheet"
+      />
+
+      
+        <p class="informativo">
+          Somos uma rede de compartilhamento entre mulheres, se você está aqui,
+          você faz parte da nossa rede de apoio online, que é um espaço seguro,
+          onde você pode compartilhar saberes, experiências, dúvidas e
+          desabafos.
+          <br/>
+          <br/>
+          Para nos comunicar com segurança em nossa plataforma, utilizamos uma
+          codificação para sua mensagem, é por meio dessa codificação que você
+          irá se comunicar em nosso fórum.
+          <br/>
+          <br/>  
+          Parece um pouco complicado, não é mesmo?! Mas é bem simples, quer ver
+          só? 
+          <br/>
+        </p>
+
+      <div class="container">
+      <textarea id="message" class="textarea1" placeholder="Digite sua mensagem" value = "" ></textarea>
+     <div class="buttonInput">
+      <input id="valor1" class="valor"type="number" />
+      <br />
+      <button id="btnC">Cifrar</button>
+      </div>
+      <p id="valorCipher" class="result"></p>
+
+      <textarea id="messageD" class="textarea2"  placeholder="Digite sua mensagem"></textarea>
+      <div class="buttonInput">
+      <input id="valor2" class="valor" type="number" />
+      <button id="btnD">Decifrar</button>
+      </div>
+      <p id="valorDecipher" class="result"></p>
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
