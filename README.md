@@ -52,7 +52,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 >HTML5
 
 
-### Meta
+### Autora
 
  <img style="border-radius: 50%;" src="./src/Imagens/ana.jpg" width="100px;" alt=""/>
  <br />
